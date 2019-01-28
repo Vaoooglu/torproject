@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'Segoe';
+  src: url("fonts/SegoeUI.eot");
+  src: url("fonts/SegoeUI.eot") format("embedded-opentype"), url("fonts/SegoeUI.woff") format("woff"), url("fonts/SegoeUI.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'SegoeL';
+  src: url("fonts/SegoeUI-Light.eot");
+  src: url("fonts/SegoeUI-Light.eot") format("embedded-opentype"), url("fonts/SegoeUI-Light.woff") format("woff"), url("fonts/SegoeUI-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'SegoeSB';
+  src: url("fonts/SegoeUI-SemiBold.eot");
+  src: url("fonts/SegoeUI-SemiBold.eot") format("embedded-opentype"), url("fonts/SegoeUI-SemiBold.woff") format("woff"), url("fonts/SegoeUI-SemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'SegoeB';
+  src: url("fonts/SegoeUI-Bold.eot");
+  src: url("fonts/SegoeUI-Bold.eot") format("embedded-opentype"), url("fonts/SegoeUI-Bold.woff") format("woff"), url("fonts/SegoeUI-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'SegoeBI';
+  src: url("fonts/SegoeUI-BoldItalic.eot");
+  src: url("fonts/SegoeUI-BoldItalic.eot") format("embedded-opentype"), url("fonts/SegoeUI-BoldItalic.woff") format("woff"), url("fonts/SegoeUI-BoldItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'SegoeI';
+  src: url("fonts/SegoeUI-Italic.eot");
+  src: url("fonts/SegoeUI-Italic.eot") format("embedded-opentype"), url("fonts/SegoeUI-Italic.woff") format("woff"), url("fonts/SegoeUI-Italic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'GoogleSans-M';
+  src: url("fonts/ProductSans-Medium.ttf");
+  src: url("fonts/ProductSans-Medium.ttf") format("truetype"); }
+
+/* Typography
+     ========================= */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Segoe';
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center; }
+
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.64); }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  font-family: 'Segoe';
+  background-color: #f7f7f7;
+  max-height: 1080px;
+  margin: 0;
+  padding: 0; }
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #ffffff; } }
+
+input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.hidden {
+  display: none !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.clearfix,
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after,
+.container:after {
+  clear: both; }
+
+a {
+  text-decoration: none; }
+
+.dot {
+  border-bottom: 1px dashed #009688; }
+
+.dot:hover {
+  border-bottom: 1px dashed #000000; }
+
+header {
+  width: 100%;
+  background-color: #009688;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.45; }
+  @media screen and (max-width: 768px) {
+    header {
+      font-size: 16px; } }
+
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px; }
+  @media screen and (max-width: 768px) {
+    .header {
+      height: 64px; } }
+
+.logo-img {
+  margin-top: 20px;
+  margin-right: 7px; }
+  @media screen and (max-width: 768px) {
+    .logo-img {
+      margin-top: 16px; } }
+
+.logo-img img {
+  height: 40px;
+  width: 40px; }
+  @media screen and (max-width: 768px) {
+    .logo-img img {
+      width: 32px;
+      height: 32px; } }
+
+.logo-text {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center; }
+
+.autorisation {
+  width: 452px;
+  height: 365px;
+  margin: 224px auto;
+  padding: 32px 24px;
+  border: 1px solid #dfe1e6;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #ffffff; }
+  @media screen and (max-width: 768px) {
+    .autorisation {
+      width: auto;
+      height: auto;
+      margin-top: 89px;
+      margin-bottom: auto;
+      border: 0;
+      padding: 0 24px; } }
+  @media screen and (max-width: 768px) {
+    .autorisation .desc {
+      height: 40px; } }
+  .autorisation .login-form li {
+    text-align: left;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.64);
+    margin-top: 24px; }
+    @media screen and (max-width: 768px) {
+      .autorisation .login-form li {
+        font-size: 12px; } }
+  .autorisation .login-form li:last-child {
+    margin-top: 16px; }
+  .autorisation h1 {
+    line-height: 0.86; }
+    @media screen and (max-width: 768px) {
+      .autorisation h1 {
+        height: 32px; } }
+  .autorisation p {
+    text-align: center;
+    margin-top: 24px; }
+  .autorisation ul {
+    text-align: center; }
+  .autorisation input {
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    margin-top: 4px; }
+    @media screen and (max-width: 768px) {
+      .autorisation input {
+        width: 100%;
+        height: 40px; } }
+  .autorisation .rectangle {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.08);
+    height: 1px;
+    width: 500px;
+    position: absolute;
+    top: 620px;
+    margin-left: -24px; }
+    @media screen and (max-width: 768px) {
+      .autorisation .rectangle {
+        width: 100%;
+        top: 441px; } }
+  .autorisation .autorisation-footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 65px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media screen and (max-width: 768px) {
+      .autorisation .autorisation-footer {
+        margin-top: 70px; } }
+    .autorisation .autorisation-footer p {
+      margin: 0;
+      text-align: left;
+      font-family: 'SegoeSB';
+      font-size: 16px;
+      font-weight: 600;
+      color: #000000; }
+    .autorisation .autorisation-footer p:last-child {
+      font-family: 'Segoe';
+      font-size: 14px;
+      font-weight: 400; }
+    .autorisation .autorisation-footer .green {
+      font-family: 'SegoeSB';
+      color: #009688;
+      font-weight: 600; }
+    .autorisation .autorisation-footer .green:hover {
+      color: #000000; }
+  .autorisation button {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #009688;
+    background-color: #009688;
+    color: #ffffff;
+    font-family: 'GoogleSans-M';
+    font-size: 14px;
+    font-weight: 500; }
+    @media screen and (max-width: 768px) {
+      .autorisation button {
+        width: 110px;
+        height: 40px;
+        font-size: 12px; } }
+  .autorisation button:hover {
+    cursor: pointer; }
+  .autorisation button:focus {
+    border: 1px solid #009688;
+    outline: -webkit-focus-ring-color 0; }
+
+footer .copyright {
+  margin-top: 311px;
+  line-height: 1.43;
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    footer .copyright {
+      margin-top: 89px; } }
+
+/*# sourceMappingURL=main.css.map */
